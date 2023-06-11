@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="carList.js"></script>
+    <script type="module" src="carDetails.js"></script>
+    <title>Car-List</title>
+</head>
+<body>
+<!-- 1. i need to create a a table to represent the table in the task 
+     2. i will create the sorting function using javascript 
+     3. i will create a button to calculate the sum of the car prices     
+     4. when i understand more about ZK i will do it with Zk instead
+    -->
+
+<table id="result-table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th id="model">Model</thid>
+            <th id="make">Make</th>
+             <th>Description</th>
+            <th id="price">Price</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<div id="container">
+    <button id="car-value-button">total car prices</button>
+    <p id="total-display" style ="visibility: hidden;"></p>
+</div>
+    
+</body>
+</html>
